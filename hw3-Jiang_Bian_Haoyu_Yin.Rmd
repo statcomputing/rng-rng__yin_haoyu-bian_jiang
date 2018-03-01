@@ -136,7 +136,7 @@ code2b <- function(theta,n){
   }
   x
 }
-gt <- function(x,theta=5){
+gt <- function(x,theta){
   1/(2*gamma(theta)+gamma(theta+0.5))*(2*x^(theta-1)+x^(theta-0.5))*exp(-x)
 }
 ```
