@@ -80,7 +80,7 @@ Last, only $I_2$ and $I_3$ contain $\sigma^2$, and if we denote $I_2^*=\sum_{i=1
 $$
 s_j=\sum_{i=1}^{n}p_{ij}^{(k+1)}\ln{\sigma^2}+\sum_{i=1}^{n}p_{ij}^{(k+1)}[\frac{(y_i-\mathbf{x}_i^T\boldsymbol{\beta}_j^{(k)})^2}{\sigma^2}]
 $$
-Thus we only need to find $\sigma^2$ to minimize each $s_j$ where $s_j$. Now that $\mathbf{x}_i^T\boldsymbol{\beta}_j^{(k+1)}$ is equal to the weighted mean of $y_i$, to minimize $s_j$, also from the property of sample variance, $\sigma^2$ must be the sample variance of the weighted sample $y_1,y_2,...,y_n$.   
+Thus we only need to find $\sigma^2$ to minimize each $s_j$ where $s_j\ (j=1,2,...,m)$. Now that $\mathbf{x}_i^T\boldsymbol{\beta}_j^{(k+1)}$ is equal to the weighted mean of $y_i$, to minimize $s_j$, also from the property of sample variance, $\sigma^2$ must be the sample variance of the weighted sample $y_1,y_2,...,y_n$.   
 Therefore,  
 $$
 \sigma_j^{2(k+1)}=\frac{\sum_{i=1}^{n}p_{ij}^{(k+1)}(y_i-\mathbf{x}_i^T\boldsymbol{\beta}_{j}^{(k+1)})^2}{\sum_{i=1}^{n}p_{ij}^{(k+1)}}
